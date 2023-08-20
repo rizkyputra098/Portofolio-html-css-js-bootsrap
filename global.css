@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #14140d;
+}
+.latar {
+  background-image: url("./componen/latarhero.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.collapse {
+  font-family: Balian personal use;
+}
