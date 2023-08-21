@@ -3,15 +3,77 @@
   margin: 0;
   box-sizing: border-box;
 }
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Inter:wght@500;600;700&family=Poppins:wght@400;600;700&display=swap");
 body {
   background-color: #14140d;
 }
 .latar {
-  background-image: url("./componen/latarhero.svg");
+  background-image: url("./componen/latarbelakangg.svg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
 }
 .collapse {
-  font-family: Balian personal use;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero-text h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 61.71px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero-text h2 {
+  color: #131313;
+  font-family: Inter;
+  font-size: 39.167px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero-text h3 {
+  color: #747474;
+  font-family: Inter;
+  font-size: 39.6px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Hero-text {
+  margin-top: 59px;
+}
+.Hero-text h3 {
+  color: #6928e6;
+  font-family: Inter;
+  font-size: 29.763px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.Hero-text h4 {
+  color: #747474;
+  font-family: Inter;
+  font-size: 38.857px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.navbar {
+  color: #000;
+  font-family: Inter;
+  font-size: 20.23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.image {
+  margin-top: 44px;
+  width: 63px;
+  gap: 39px;
+  display: flex;
 }
