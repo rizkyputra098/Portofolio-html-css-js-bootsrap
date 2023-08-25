@@ -416,17 +416,6 @@ body {
   line-height: normal;
   width: 350px;
 }
-/* Colorize-zoom Container */
-.img-hover-zoom--colorize img {
-  transition: transform 0.5s, filter 1.5s ease-in-out;
-  filter: grayscale(100%);
-}
-
-/* The Transformation */
-.img-hover-zoom--colorize:hover img {
-  filter: grayscale(0);
-  transform: scale(1.1);
-}
 .tab-contents {
   display: none;
 }
