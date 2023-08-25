@@ -5,49 +5,53 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Inter:wght@500;600;700&family=Poppins:wght@400;600;700&display=swap");
 body {
-  background-color: #14140d;
+  background-color: FFFFFF;
 }
-.latar {
+.background {
   background-image: url("./componen/latarbelakangg.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: auto;
 }
-.collapse {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.hero-text h1 {
+.navbar-nav {
   color: #000;
   font-family: Inter;
-  font-size: 61.71px;
+  font-size: 20.23px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  gap: 35px;
 }
-.hero-text h2 {
+.hero h2 {
   color: #131313;
+  margin-top: 100px;
   font-family: Inter;
   font-size: 39.167px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-.hero-text h3 {
+.hero h1 {
+  color: #000;
+  margin-top: 11px;
+  font-family: Inter;
+  font-size: 61.71px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero h3 {
   color: #747474;
+  margin-top: 11px;
   font-family: Inter;
   font-size: 39.6px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-.Hero-text {
-  margin-top: 59px;
-}
-.Hero-text h3 {
+.hero1 h1 {
   color: #6928e6;
+  margin-top: 59px;
   font-family: Inter;
   font-size: 29.763px;
   font-style: normal;
@@ -55,18 +59,11 @@ body {
   line-height: normal;
   text-decoration-line: underline;
 }
-.Hero-text h4 {
+.hero1 h3 {
+  margin-top: 10px;
   color: #747474;
   font-family: Inter;
   font-size: 38.857px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.navbar {
-  color: #000;
-  font-family: Inter;
-  font-size: 20.23px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -76,4 +73,439 @@ body {
   width: 63px;
   gap: 39px;
   display: flex;
+}
+.tentang-saya h1 {
+  margin-top: 111px;
+  color: #000;
+  font-family: Inter;
+  font-size: 47.861px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.tentang-saya p {
+  color: #747474;
+  margin-top: 30px;
+  font-family: Inter;
+  font-size: 21.272px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.flex {
+  display: flex;
+  gap: 125px;
+  margin-top: 30px;
+}
+.tentang-saya h2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 23.509px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.tentang-saya h3 {
+  color: #000;
+  font-family: Inter;
+  font-size: 23.509px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.text-box {
+  font-family: Inter;
+  font-size: 22.794px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 37px;
+}
+
+.btn:link,
+.btn:visited {
+  padding: 15px 40px;
+  border-radius: 20px;
+  transition: all 0.2s;
+  color: #f6f6fb;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  color: #f6f6fb;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+  background: linear-gradient(127deg, #6928e6 0%, #9439f0 100%);
+  color: #f6f6fb;
+}
+
+.btn::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.btn-white::after {
+  background: linear-gradient(127deg, #6928e6 0%, #9439f0 100%);
+}
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn-animated {
+  animation: moveInBottom 5s ease-out;
+  animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.tentang-saya img {
+  margin-top: 111px;
+  width: 584px;
+  height: 508px;
+}
+.hero3 {
+  margin-top: 196px;
+}
+.hero3 h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 47.86px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Box {
+  margin-top: 80px;
+}
+.Box img {
+  margin-top: 60px;
+  align-items: center;
+  width: 155.556px;
+  height: 140px;
+}
+
+.card-1 {
+  align-items: center;
+  width: 277px;
+  height: 347px;
+  border-radius: 20px;
+  background: #f5f5fb;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.card-1 h5 {
+  align-items: center;
+  margin-top: 51px;
+  color: #000;
+  font-family: Inter;
+  font-size: 15.582px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition: 1s;
+  cursor: pointer;
+}
+.card-1 p {
+  align-items: center;
+  color: #747474;
+  font-family: Inter;
+  font-size: 14.666px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.card-1 h6 {
+  align-items: center;
+  color: #131313;
+  font-family: Inter;
+  font-size: 10.661px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.card-1:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+.card-1::before,
+.card-1::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale3d(0, 0, 1);
+  transition: transform 0.3s ease-out 0s;
+  content: "";
+  pointer-events: none;
+}
+.card-1::before {
+  transform-origin: left top;
+}
+.card-1::after {
+  transform-origin: right bottom;
+}
+.card-1:hover::before,
+.card-1:hover::after,
+.card-1:focus::before,
+.card-1:focus::after {
+  transform: scale3d(1, 1, 1);
+}
+.card-2 {
+  align-items: center;
+  width: 375px;
+  height: 410px;
+  border-radius: 27.076px;
+  background: #f5f5fb;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.card-2 h5 {
+  align-items: center;
+  margin-top: 51px;
+  color: #000;
+  font-family: Inter;
+  font-size: 15.582px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition: 1s;
+  cursor: pointer;
+}
+.card-2 p {
+  color: #747474;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15.023px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 323px;
+  height: 61px;
+  flex-shrink: 0;
+}
+.card-2 h6 {
+  align-items: center;
+  color: #131313;
+  margin-top: -1;
+  font-family: Inter;
+  font-size: 10.661px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.card-2:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+.card-2::before,
+.card-2::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale3d(0, 0, 1);
+  transition: transform 0.3s ease-out 0s;
+  content: "";
+  pointer-events: none;
+}
+.card-2::before {
+  transform-origin: left top;
+}
+.card-2::after {
+  transform-origin: right bottom;
+}
+.card-2:hover::before,
+.card-2:hover::after,
+.card-2:focus::before,
+.card-2:focus::after {
+  transform: scale3d(1, 1, 1);
+}
+.projek {
+  background: #f9f9f9;
+  margin-top: 159px;
+}
+.projek h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 47.86px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero4 {
+  background: #f9f9f9;
+  margin-top: 159px;
+}
+.judul {
+  margin-top: 103px;
+  text-align: center;
+}
+.judul h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 47.86px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.judul h2 {
+  color: #474444;
+  font-family: Inter;
+  font-size: 18.225px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.workspace {
+  display: flex;
+  color: #000;
+  font-family: Inter;
+  font-size: 21.095px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 27px;
+}
+.img-hover-zoom img {
+  margin-top: 61px;
+}
+.img-hover-zoom h1 {
+  color: #000;
+  margin-top: 23px;
+  font-family: Inter;
+  font-size: 26.745px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.img-hover-zoom p {
+  color: #747474;
+  font-family: Inter;
+  font-size: 21.095px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 350px;
+}
+/* Colorize-zoom Container */
+.img-hover-zoom--colorize img {
+  transition: transform 0.5s, filter 1.5s ease-in-out;
+  filter: grayscale(100%);
+}
+
+/* The Transformation */
+.img-hover-zoom--colorize:hover img {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+.tab-contents {
+  display: none;
+}
+.tab-contents.active-tab {
+  display: block;
+}
+.tab-links {
+  cursor: pointer;
+}
+.hero5.buttom {
+  align-items: center;
+}
+.hero6 {
+  margin-top: 69px;
+}
+.hero6 h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 47.86px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero6 h2 {
+  margin-top: 21px;
+  width: 619px;
+  color: #474444;
+  font-family: Inter;
+  font-size: 18.225px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  color: #f6f6fb;
+  font-family: Inter;
+  font-size: 22.04px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 19.338px;
+  background: linear-gradient(127deg, #6928e6 0%, #9439f0 100%);
+  width: 184.078px;
+  height: 56.528px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.form {
+  border-radius: 30.851px;
+  background: linear-gradient(
+      133deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(46deg, #f3dfff 1.84%, #cfe9f4 100%);
+  padding: 20px;
+}
+.contak {
+  margin-top: 58px;
+}
+.bawah {
+  margin-top: 108px;
+  background-image: url("./componen/footer 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
